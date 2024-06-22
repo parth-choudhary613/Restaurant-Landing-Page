@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.nav-item a:hover{box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.nav-item a{
+    border-radius: 50px;
+}
+ /* first page starting */
+.top-banner{
+    width:100%;
+    height: 100%;
+    background: url(Components/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 16.875rem;
+    }
+.fph-1{ 
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+   color: #a82c48; 
+   text-shadow: 48px 20px 10px rgba(13, 13, 13, 0.6); 
+}
+.btn-2{
+    background-color: #a82c48;
+    border: none;
+    border-radius: 5px;
+}
+/* second page */
+.card2{
+    border: none;
+    border-radius: 100px;
+
+}
+.pb-4{
+    color: #a82c48;
+    text-shadow: 48px 20px 10px rgba(13, 13, 13, 0.6); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.card2:hover{
+    box-shadow:
+     0 0 5px red,
+        0 0 25px red,
+        0 0 50px  red,
+        0 0 100px  red,
+        0 0 200px  red;
+
+}
+/*  */
+.about-section{
+    border-radius:10px;
+}
+.h23{
+    color: #a82c48;
+    text-shadow: 48px 20px 10px rgba(13, 13, 13, 0.6); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.story-section{
+    width: 100%;
+    height: 30.125rem;
+    background: url(Components/bg/bg-2.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 50px;
+}
+.explore-food .card{
+    border: none;
+    background-color: transparent;
+    border-bottom: 0.9375rem;
+
+}
+.explore-food .card img{
+    border-radius: 0.9375rem;
+    object-fit: cover;
+}
+.explore-food .card span{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem solid #eee;
+
+}
+/* sixth image */
+.testimonial-section{
+    background-color: #a82c48;
+   
+}
+.testimonial-section .carousel-item{
+    margin-top: 15rem;
+    padding-top: 5rem;
+    text-align: center;    
+    border-radius: 0.9375rem;
+    
+}
+
+.testi{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.testimonial-section .carousel-caption img{
+    max-width:3rem;
+    border-radius:50%;
+    
+   }
+.testimonial-section .carousel-item .carousel-caption p{
+    margin:5px;
+    padding: 0 11% 0.625;
+   }
+.newsletter.form-control
+{
+    align-items: center;
+}
